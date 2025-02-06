@@ -1,0 +1,43 @@
+name: count_and_short
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  audioplayers: ^6.1.0
+  sqflite: ^2.0.0+4
+  path: ^1.8.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/logo.png
+    - assets/images/bg.png
+    - assets/images/btn_start.png
+    - assets/images/btn_restart.png
+    - assets/images/pocket_watch.png
+    - assets/images/number_bubble.png
+    - assets/images/btn_back.png
+    - assets/images/logo_ready.png
+    - assets/images/benar.png
+    - assets/images/salah.png
+    - assets/sounds/bubble_sound.mp3
+    - assets/sounds/btn_sound.mp3
+
+  fonts:
+    - family: Baloo
+      fonts:
+        - asset: assets/fonts/Baloo.ttf
